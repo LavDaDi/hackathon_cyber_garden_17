@@ -12,9 +12,12 @@ a{
 }
 
 html,body{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Abhaya Libre', serif;
     height: 100%;  
-    background: #27AE60;}
+    background: #27AE60;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+}
 
 .wrapper {
     min-height: 100%;
@@ -24,7 +27,7 @@ html,body{
 
 .container {
     min-height: 100%;
-    max-width: 1180px;
+    max-width: 1280px;
     margin: 0px auto;
     
 }
@@ -32,13 +35,14 @@ html,body{
 /**headder**/
 
 .headder {
-    margin: 25px;
+    margin: 25px 0 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }       
 
 .headder_logo {
+    
 }
 
 .headder_block_button {
@@ -48,16 +52,30 @@ html,body{
 .headder_button_create {
     border-radius: 20px;
     background: #F74F4F;
-    width: 250px;
-    height: 96px;
+    width: 200px;
+    height: 76px;
     flex-shrink: 0;
     color: #FFF;
     text-align: center;
     font-family: 'Abhaya Libre', serif;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.block_rules{
+    margin: 0 306px 0 0;
+}
+
+.rules_text {
+    color: #FFF;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
 }
 
 /**main**/
@@ -65,28 +83,27 @@ html,body{
 .main {
     display: flex;
     flex-direction: column;
-    margin: 0 0 0 80px;
+    margin: 55px 0 0 100px;
 }
 
 .main_block_title {
-    width: 538px;
-    height: 266px;
+    width: 350px;
+    height: 206px;
     flex-shrink: 0;
 }
 
 .main_title {
     color: #FFF;
     font-family: Abhaya Libre SemiBold;
-    font-size: 70px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .main_block_text {
-    width: 538px;
-    height: 119px;
-    flex-shrink: 0;
+    width: 438px;
+    height: 130px;
 }
 
 .main_text {
@@ -115,4 +132,41 @@ html,body{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.block_candy_left{
+    margin: -324px 0 0 -170px;
+}
+
+.candy_left{
+
+    width: 400px;
+    height: 450px;
+}
+
+.block_candy_heart{
+    margin: -450px 0 0 865px; 
+}
+
+.candy_heart_img{
+    height: 380px;
+}
+
+.block_cup_candy {
+    margin: -185px 0px 0px 450px;
+}
+
+.cup_candy_img {
+    height: 250px;
+}
+
+.block_candy_top {
+    margin: -709px 0px 0px 620px;
+    transform: rotate(-151.845deg);
+    max-width: 250px;
+}
+
+.candy_top {
+    height: 200px;
+    transform: scale(-1, 1)
 }
