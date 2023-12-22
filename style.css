@@ -1,0 +1,118 @@
+/**Обнуление**/
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+html,body{
+    font-family: 'Nunito', sans-serif;
+    height: 100%;  
+    background: #27AE60;}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+
+}
+
+.container {
+    min-height: 100%;
+    max-width: 1180px;
+    margin: 0px auto;
+    
+}
+
+/**headder**/
+
+.headder {
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}       
+
+.headder_logo {
+}
+
+.headder_block_button {
+
+}
+
+.headder_button_create {
+    border-radius: 20px;
+    background: #F74F4F;
+    width: 250px;
+    height: 96px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/**main**/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 80px;
+}
+
+.main_block_title {
+    width: 538px;
+    height: 266px;
+    flex-shrink: 0;
+}
+
+.main_title {
+    color: #FFF;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main_block_text {
+    width: 538px;
+    height: 119px;
+    flex-shrink: 0;
+}
+
+.main_text {
+    color: #FFF;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.main_block_button {
+
+}
+
+.main_button {
+    border-radius: 20px;
+    background: #3DB670;
+    width: 395px;
+    height: 96px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Abhaya Libre SemiBold;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
