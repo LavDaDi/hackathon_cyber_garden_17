@@ -26,7 +26,7 @@ def play_secret_santa(message):
         for i in range(len(participants)):
             giver = participants[i]
             receiver = santas[(i + 1) % len(participants)]
-            message = f"{giver} дарит подарок {receiver}"
-            bot.send_message(message.chat.id, message)
+            m = f"{giver} дарит подарок {receiver}"
+            bot.send_message(message.chat.id, m)
 
 bot.polling()
